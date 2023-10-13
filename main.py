@@ -4,13 +4,13 @@ import pgzrun
 WIDTH = 800
 HEIGHT = 600
 
+saul = Actor('saul')
+WIDTH = 500
+HEIGHT = saul.height + 20
 
 def draw():
     screen.clear()
-    screen.draw.circle((400, 300), 30, "white")
-    screen.draw.circle((300, 300), 50, "red")
-    screen.draw.circle((200, 300), 40, "green")
-
+    saul.draw()
 
 def update(dt):
     pass

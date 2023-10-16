@@ -1,12 +1,13 @@
 import pgzrun
 
+STATE_MAINMENU = 0
+STATE_SCENE1 = 1
+STATE_COURTROOM = 2
 
-game_state = 1
 
-if game_state == 1:
-    pass
-while game_state == 1:
-    pass
+game_state = STATE_MAINMENU
+
+
 
 
 
@@ -16,10 +17,35 @@ while game_state == 1:
 # ------DEMILITARIZED-ZONE-DEMILITARIZED-ZONE-DEMILITARIZED-ZONE-DEMILITARIZED-ZONE-DEMILITARIZED-ZONE-DEMILITARIZED-ZONE------
 # ==============================================================================================================================
 
-if game_state == 2:
+jury_credibility = 100
+
+
+if game_state == STATE_COURTROOM:
     pass
+    print("Courtroom time")
+    
+
+
 while game_state == 2:
     pass
+    break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 saul = Actor('saul')
 

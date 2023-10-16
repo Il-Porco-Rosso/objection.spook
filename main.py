@@ -1,11 +1,29 @@
 import pgzrun
 
 
-WIDTH = 800
-HEIGHT = 600
+game_state = 1
+
+if game_state == 1:
+    pass
+while game_state == 1:
+    pass
+
+
+
+
+
+
+
+
+
+if game_state == 2:
+    pass
+while game_state == 2:
+    pass
 
 saul = Actor('saul')
-WIDTH = 500
+
+WIDTH = 1000
 HEIGHT = saul.height + 20
 
 def draw():

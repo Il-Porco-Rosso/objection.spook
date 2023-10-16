@@ -8,13 +8,19 @@ STATE_COURTROOM = 2
 game_state = STATE_MAINMENU
 
 
+slasher_placeholder = Actor('slasher_placeholder')
+slasher_placeholder.pos = (100,56)
 
+WIDTH = 1000
+HEIGHT = slasher_placeholder.height + 20
 
-
+def draw():
+    screen.clear()
+    slasher_placeholder.draw()
 
 
 # ==============================================================================================================================
-# ------DEMILITARIZED-ZONE-DEMILITARIZED-ZONE-DEMILITARIZED-ZONE-DEMILITARIZED-ZONE-DEMILITARIZED-ZONE-DEMILITARIZED-ZONE------
+# ------REMILITARIZED-ZONE-REMILITARIZED-ZONE-REMILITARIZED-ZONE-REMILITARIZED-ZONE-REMILITARIZED-ZONE-REMILITARIZED-ZONE------
 # ==============================================================================================================================
 
 jury_credibility = 100
@@ -47,14 +53,6 @@ while game_state == 2:
 
 
 
-saul = Actor('saul')
-
-WIDTH = 1000
-HEIGHT = saul.height + 20
-
-def draw():
-    screen.clear()
-    saul.draw()
 
 def update(dt):
     pass

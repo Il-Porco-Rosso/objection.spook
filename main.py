@@ -24,6 +24,7 @@ def draw():
 # ==============================================================================================================================
 
 jury_credibility = 100
+objection = 0
 
 
 if game_state == STATE_COURTROOM:
@@ -32,7 +33,7 @@ if game_state == STATE_COURTROOM:
     
 
 
-while game_state == 2:
+while game_state == STATE_COURTROOM:
     pass
     break
 

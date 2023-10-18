@@ -6,6 +6,11 @@ STATE_COURTROOM = 2
 
 
 game_state = STATE_MAINMENU
+game_state = input("devtoolgamestatechangerthingythingthing: ")
+if game_state != "1" or game_state != "2":
+    pass
+else:
+    game_state = int(game_state)
 
 
 slasher_placeholder = Actor('slasher_placeholder')

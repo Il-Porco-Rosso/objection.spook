@@ -16,8 +16,8 @@ else:
 slasher_placeholder = Actor('slasher_placeholder')
 slasher_placeholder.pos = (100,56)
 
-WIDTH = 1000
-HEIGHT = slasher_placeholder.height + 20
+WIDTH = 250
+HEIGHT = 250
 
 def draw():
     screen.clear()
